@@ -1,0 +1,146 @@
+export const products = [
+    {
+        id: 1,
+        name: "Zero-G Alpha",
+        tagline: "Defy Ground",
+        price: "$249",
+        type: "Running",
+        colors: { main: "#1a1a1a", accent: "#00f3ff", sole: "#333" },
+        geometry: { type: 'low', soleHeight: 0.2 },
+        position: [0, 0, 0], // Hero position
+        rotation: [0, 0, 0],
+        description: "The original anti-gravity runner. Weightless mesh construction."
+    },
+    {
+        id: 2,
+        name: "Nebula Stride",
+        tagline: "Walk on Stardust",
+        price: "$289",
+        type: "Lifestyle",
+        colors: { main: "#2d1b4e", accent: "#bd00ff", sole: "#111" },
+        geometry: { type: 'high', soleHeight: 0.4 },
+        position: [4, 2, -5],
+        rotation: [0.5, 0.5, 0],
+        description: "High-top silhouette with deep space cushioning."
+    },
+    {
+        id: 3,
+        name: "Solar Flare",
+        tagline: "Energy Return",
+        price: "$199",
+        type: "Training",
+        colors: { main: "#ff5e00", accent: "#ffbd00", sole: "#fff" },
+        geometry: { type: 'mid', soleHeight: 0.3 },
+        position: [-4, -2, -10],
+        rotation: [-0.5, 1, 0],
+        description: "Explosive power for high-intensity gravity training."
+    },
+    {
+        id: 4,
+        name: "Lunar Walker",
+        tagline: "Moonshot Comfy",
+        price: "$229",
+        type: "Lifestyle",
+        colors: { main: "#e0e0e0", accent: "#888", sole: "#fff" },
+        geometry: { type: 'low', soleHeight: 0.25 },
+        position: [3, 4, -15],
+        rotation: [0.2, -0.4, 0.2],
+        description: "Inspired by moon boots, refined for street durability."
+    },
+    {
+        id: 5,
+        name: "Void Runner",
+        tagline: "Into the Abyss",
+        price: "$310",
+        type: "Limited Edition",
+        colors: { main: "#000000", accent: "#333", sole: "#000" },
+        geometry: { type: 'high', soleHeight: 0.5 },
+        position: [-3, 1, -20],
+        rotation: [0, 2, 0],
+        description: "Vantablack absorption technology. The darkest shoe ever made."
+    },
+    {
+        id: 6,
+        name: "Cyber Pulse",
+        tagline: "Digital Drift",
+        price: "$259",
+        type: "Running",
+        colors: { main: "#003366", accent: "#00ff99", sole: "#004488" },
+        geometry: { type: 'mid', soleHeight: 0.3 },
+        position: [5, -3, -25],
+        rotation: [1, 1, 1],
+        description: "Cybernetic aesthetics for the modern runner."
+    },
+    {
+        id: 7,
+        name: "Hyper Glitch",
+        tagline: "Break the System",
+        price: "$279",
+        type: "Limited Edition",
+        colors: { main: "#ff0055", accent: "#00ffff", sole: "#222" },
+        geometry: { type: 'low', soleHeight: 0.2 },
+        position: [-5, 3, -30],
+        rotation: [0.5, -0.5, 0],
+        description: "Mismatched frequencies create a vibrating visual effect."
+    },
+    {
+        id: 8,
+        name: "Orbit X",
+        tagline: "Circumnavigate",
+        price: "$219",
+        type: "Training",
+        colors: { main: "#ffffff", accent: "#444", sole: "#ccc" },
+        geometry: { type: 'low', soleHeight: 0.2 },
+        position: [2, -4, -35],
+        rotation: [-0.2, 3, 0],
+        description: "Orbital stability control for 360-degree movement."
+    },
+    {
+        id: 9,
+        name: "Dark Matter",
+        tagline: "Unseen Force",
+        price: "$299",
+        type: "Lifestyle",
+        colors: { main: "#111", accent: "#5500aa", sole: "#220044" },
+        geometry: { type: 'high', soleHeight: 0.5 },
+        position: [-2, 5, -40],
+        rotation: [0, 0, 0.5],
+        description: "Theoretical physics applied to footwear design."
+    },
+    {
+        id: 10,
+        name: "Photon Speed",
+        tagline: "Light Speed",
+        price: "$239",
+        type: "Running",
+        colors: { main: "#ffff00", accent: "#ff8800", sole: "#fff" },
+        geometry: { type: 'mid', soleHeight: 0.3 },
+        position: [4, 0, -45],
+        rotation: [1, 0, 0],
+        description: "Lightweight particles fused into a solid form."
+    },
+    {
+        id: 11,
+        name: "Gravity Well",
+        tagline: "Pull Them In",
+        price: "$269",
+        type: "Lifestyle",
+        colors: { main: "#330000", accent: "#ff0000", sole: "#660000" },
+        geometry: { type: 'low', soleHeight: 0.4 },
+        position: [-4, -2, -50],
+        rotation: [0, 1, 0],
+        description: "Dense sole construction for maximum impact absorption."
+    },
+    {
+        id: 12,
+        name: "Ascension V",
+        tagline: "Rise Above",
+        price: "$399",
+        type: "Limited Edition",
+        colors: { main: "#gold", accent: "#fff", sole: "#gold" },
+        geometry: { type: 'high', soleHeight: 0.6 },
+        position: [0, 3, -55],
+        rotation: [0, 0, 0],
+        description: "Gold-plated aesthetics for the ultimate high-ground."
+    }
+];
